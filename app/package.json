@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Signup, Signin, Forgot password, Terms and Conditions and Contact Us boilerplate just the UI ",
+  "main": "]",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthaChowdhury/bp-common.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "signup",
+    "signin",
+    "forgot",
+    "passord",
+    "reset",
+    "password",
+    "tnc",
+    "contact",
+    "us"
+  ],
+  "author": "Austin4Silvers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiddharthaChowdhury/bp-common/issues"
+  },
+  "homepage": "https://github.com/SiddharthaChowdhury/bp-common#readme"
+}
