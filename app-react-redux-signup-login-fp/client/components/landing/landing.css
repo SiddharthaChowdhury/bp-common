@@ -1,0 +1,21 @@
+body{
+    height: 100%;
+}
+.css-form-cont{
+   margin: 10% 0px; 
+}
+.css-bottom-label{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+footer {
+    
+    padding: 1rem;
+    /* background-color: #efefef; */
+    text-align: center;
+  }
+.css-copyright{
+    font-size:13px;
+}
