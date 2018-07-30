@@ -5,7 +5,7 @@ import {SIGNUP} from './CONST';
 //     return {msg: "User created!"}
 // }
 
-export const SignUp = () => ((dispatch)=>{
+export const _createUser = () => ((dispatch)=>{
     dispatch({
         type: SIGNUP,
         payload: {

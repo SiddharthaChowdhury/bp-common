@@ -24,5 +24,8 @@ module.exports = {
         new HWP({
             template: path.join(__dirname, '/src/index.html')
         })
-    ]
+    ],
+    devServer: {
+        historyApiFallback: true
+    }
 }
