@@ -15,7 +15,7 @@ class Landing extends Component {
     render(){
         return(
             <Switch>
-                
+                <Route path="/signup" component={SignupPage} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/" component={SignupPage} />
             </Switch >

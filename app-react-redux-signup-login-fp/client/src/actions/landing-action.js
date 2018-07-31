@@ -1,4 +1,4 @@
-import {SIGNUP} from './CONST';
+import {SIGNUP, LOGIN} from './CONST';
 
 // export const SignUp = (data) =>{
 //     // Signup logic comes
@@ -10,6 +10,15 @@ export const _createUser = () => ((dispatch)=>{
         type: SIGNUP,
         payload: {
             msg: "User successfully registered!"
+        }
+    })
+})
+
+export const _loginUser = () => ((dispatch)=>{
+    dispatch({
+        type: LOGIN,
+        payload:{
+            msg: "Login Successful!"
         }
     })
 })
